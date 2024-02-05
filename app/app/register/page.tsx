@@ -2,10 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { MdKeyboardArrowLeft as BackIcon } from "react-icons/md"
-import { AiFillHome } from "react-icons/ai";
 import { TfiEmail as EmailIcon } from "react-icons/tfi";
 import { FaUser as UserIcon, FaPhoneAlt as PhoneIcon, FaLock as PasswordIcon } from "react-icons/fa";
-import { IoMdEye, IoMdEyeOff } from "react-icons/io";
+import { IoMdEye, IoMdEyeOff, IoIosHome as HomeIcon } from "react-icons/io";
 
 function Register() {
     return (
