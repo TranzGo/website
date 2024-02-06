@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { MdKeyboardArrowLeft as BackIcon } from "react-icons/md"
 import { FcGoogle as GoogleIcon } from "react-icons/fc";
 import { AiOutlineApple as AppleIcon } from "react-icons/ai";
@@ -9,15 +10,17 @@ function SignInSocials() {
     return (
         <div>
             <div className="flex items-start justify-start text-left mt-8 ml-5">
-                <button><BackIcon className="text-4xl text-green-600 rounded-xl border-solid border-2 border-green-600 hover:bg-green-300" /></button>
+                <Link href="/app/">
+                    <button><BackIcon className="text-4xl text-green-600 rounded-xl border-solid border-2 border-green-600 hover:bg-green-300" /></button>
+                </Link>
             </div>
-            <div className="flex flex-col items-center justify-center mt-36">
-                <div>
+            <div className="flex flex-col items-center justify-center mt-28">
+                <div className="mb-8">
                     <Image
                         src="/tranzgoo.png"
                         alt="TranzGoo Logo"
-                        width={200}
-                        height={48}
+                        width={150}
+                        height={36}
                     />
                 </div>
                 <div>
@@ -30,7 +33,9 @@ function SignInSocials() {
                     <button className="flex flex-row items-center justify-center text-center text-green-600 font-bold bg-white hover:bg-green-100 py-2 w-80 rounded-2xl border-solid border-2 border-green-600 mb-7"><MicrosoftIcon className="text-2xl mr-5" />Continue with Microsoft</button>
                 </div>
                 <div>
-                    <button className="text-white font-bold bg-green-600 hover:bg-green-700 py-2 w-80 rounded-2xl mb-10">Sign Up</button>
+                    <Link href="/app/register">
+                        <button className="text-white font-bold bg-green-600 hover:bg-green-700 py-2 w-80 rounded-2xl mb-10">Sign Up</button>
+                    </Link>
                 </div>
             </div>
         </div>
