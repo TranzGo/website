@@ -14,7 +14,7 @@ function Login() {
                     <button><BackIcon className="text-4xl text-green-600 rounded-xl border-solid border-2 border-green-600 hover:bg-green-300" /></button>
                 </Link>
             </div>
-            <div className="flex flex-col items-center justify-center mt-28">
+            <div className="flex flex-col items-center justify-center mt-28 flex-shrink">
                 <div>
                     <Image
                         src="/tranzgoo.png"

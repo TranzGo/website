@@ -26,7 +26,7 @@ function UnlockAccount() {
                         height={60}
                     />
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col text-black">
                     <p className="font-extrabold">Hello John Doe</p>
                     <p className="font-medium">Continue to account</p>
                 </div>
@@ -59,7 +59,7 @@ function UnlockAccount() {
                     <DeleteIcon className="text-center text-green-600 hover:text-green-700 font-bold w-10 h-10 rounded-lg" />
                 </div>
                 <div>
-                    <p>Not you? <Link className="text-green-600 hover:text-green-700" href="#">Switch Account</Link></p>
+                    <p className="text-black">Not you? <Link className="text-green-600 hover:text-green-700" href="#">Switch Account</Link></p>
                 </div>
             </div>
         </div>

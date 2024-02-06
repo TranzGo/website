@@ -13,11 +13,11 @@ function Register() {
                     <button><BackIcon className="text-4xl text-green-600 rounded-xl border-solid border-2 border-green-600 hover:bg-green-300" /></button>
                 </Link>
             </div>
-            <div className="flex flex-col items-center justify-center mt-10">
+            <div className="flex flex-col items-center justify-center mt-10 flex-shrink">
                 <div className="mb-2">
                     <h2 className="text-black font-bold text-xl">Register</h2>
                 </div>
-                <div className="text-center text-sm font-medium mb-6 w-72">
+                <div className="text-center text-sm text-black font-medium mb-6 w-72">
                     <p>Your all-in-one telecom solution! Buy airtime, data, pay bills, and convert airtime to cash effortlessly.</p>
                 </div>
                 <div className="flex flex-row items-center justify-center text-center text-green-600 font-bold bg-white hover:bg-green-100 py-2 w-96 h-10 rounded-2xl border-solid border-2 border-green-600 mb-5">
@@ -41,7 +41,7 @@ function Register() {
                     <input className="text-green-600 text-sm font-bold bg-white hover:bg-green-100 py-2 w-80 rounded-lg outline-none border-green-600 placeholder:text-green-600" type="password" id="confirmPwd" name="confirmPwd" placeholder="Confirm Password"></input>
                 </div>
                 <div className="text-sm mb-7">
-                    <p>I already have an account <Link className="text-green-600" href="/app/login">Sign In</Link></p>
+                    <p className="text-black">I already have an account <Link className="text-green-600" href="/app/login">Sign In</Link></p>
                 </div>
                 <div>
                     <button className="text-white font-bold bg-green-600 hover:bg-green-700 py-2 w-72 h-10 rounded-2xl mb-10">Submit</button>
