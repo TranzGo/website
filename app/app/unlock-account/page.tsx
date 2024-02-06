@@ -31,7 +31,7 @@ function UnlockAccount() {
                     <p className="font-medium">Continue to account</p>
                 </div>
             </div>
-            <div className="flex flex-col items-center justify-center mt-20">
+            <div className="flex flex-col items-center justify-center mt-14">
                 <div className="flex flex-row w-44 justify-between mb-12">
                     <input style={{ "backgroundColor": "#ECEBEB" }} className="text-center font-bold w-8 h-8 rounded-md shadow-md shadow-black border-solid border-2 border-green-200" type="text" defaultValue={pinA}></input>
                     <input style={{ "backgroundColor": "#ECEBEB" }} className="text-center font-bold w-8 h-8 rounded-md shadow-md shadow-black border-solid border-2 border-green-200" type="text" defaultValue={pinB}></input>
@@ -55,6 +55,7 @@ function UnlockAccount() {
                 </div>
                 <div className="flex flex-row w-56 justify-between mb-5">
                     <FingerprintIcon className="flex sm:hidden text-center text-green-600 hover:text-green-700 font-bold w-10 h-10 rounded-lg" />
+                    <button className="hidden sm:flex text-center text-green-600 hover:text-green-700 font-bold w-10 h-10 bg-white hover:bg-green-100 rounded-lg border-solid border-2 border-green-600" disabled></button>
                     <button className="text-center text-green-600 hover:text-green-700 font-bold w-10 h-10 bg-white hover:bg-green-100 rounded-lg border-solid border-2 border-green-600">0</button>
                     <DeleteIcon className="text-center text-green-600 hover:text-green-700 font-bold w-10 h-10 rounded-lg" />
                 </div>
