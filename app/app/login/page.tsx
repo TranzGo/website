@@ -37,7 +37,7 @@ function Login() {
                 <div>
                     <button className="text-white font-bold bg-green-600 hover:bg-green-700 py-2 w-96 h-10 rounded-2xl mb-7">Login</button>
                 </div>
-                <div>
+                <div className="flex sm:hidden">
                     <button>
                         <FingerprintIcon className="font-bold text-6xl text-green-600 hover:text-green-700 mb-10" />
                     </button>

@@ -54,7 +54,7 @@ function UnlockAccount() {
                     <button className="text-center text-green-600 hover:text-green-700 font-bold w-10 h-10 bg-white hover:bg-green-100 rounded-lg border-solid border-2 border-green-600">9</button>
                 </div>
                 <div className="flex flex-row w-56 justify-between mb-5">
-                    <FingerprintIcon className="text-center text-green-600 hover:text-green-700 font-bold w-10 h-10 rounded-lg" />
+                    <FingerprintIcon className="flex sm:hidden text-center text-green-600 hover:text-green-700 font-bold w-10 h-10 rounded-lg" />
                     <button className="text-center text-green-600 hover:text-green-700 font-bold w-10 h-10 bg-white hover:bg-green-100 rounded-lg border-solid border-2 border-green-600">0</button>
                     <DeleteIcon className="text-center text-green-600 hover:text-green-700 font-bold w-10 h-10 rounded-lg" />
                 </div>
