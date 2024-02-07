@@ -39,9 +39,9 @@ function Navbar() {
             {/* Mobile Menu */}
             <div className={
                 showMenu ?
-                    "md:hidden absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen bg-green-300 text-center ease-in duration-300"
+                    "md:hidden absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen bg-green-100 text-center ease-in duration-300"
                     :
-                    "md:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen bg-green-300 text-center ease-in duration-300"
+                    "md:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen bg-green-100 text-center ease-in duration-300"
             }>
                 <ul className="text-black font-semibold">
                     <li className="p-4 text-4xl hover:text-gray-500">
