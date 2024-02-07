@@ -60,9 +60,9 @@ function Navbar() {
                         <Link href="#">Contact Us</Link>
                     </li>
                 </ul>
-                <div className="flex flex-col items-center space-y-6 mt-8">
-                    <Link href="/app/signin-socials" className="text-black font-bold border px-4 py-3 w-96 rounded-xl border-black bg-green-100 hover:bg-green-200">Sign in</Link>
-                    <Link href="/app/register" style={{ "backgroundColor": "#122231" }} className="text-white hover:bg-slate-200 font-semibold rounded-xl px-4 py-3 w-96">Create free account</Link>
+                <div className="flex flex-col items-center space-y-4 mt-6">
+                    <Link href="/app/signin-socials" className="text-black font-bold border px-4 py-3 w-80 rounded-xl border-black bg-green-100 hover:bg-green-200">Sign in</Link>
+                    <Link href="/app/register" style={{ "backgroundColor": "#122231" }} className="text-white hover:bg-slate-200 font-semibold rounded-xl px-4 py-3 w-80">Create free account</Link>
                 </div>
             </div>
         </div>
