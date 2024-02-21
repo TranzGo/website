@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navbar from "./components/Navbar";
 import { AiFillApple as AppleIcon } from "react-icons/ai";
 import { IoLogoGooglePlaystore as PlaystoreIcon } from "react-icons/io5";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
