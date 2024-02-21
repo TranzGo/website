@@ -13,8 +13,8 @@ export default function Home() {
           <h1 style={{ "color": "#122231" }} className="text-5xl font-bold">Your All-In-One Telecom Solution!</h1>
           <p style={{ "color": "#3D4F60" }} className="mt-4 text-lg">Buy airtime, data, pay bills, and convert airtime to cash effortlessly. Your seamless telecom experience begins here. Enjoy!</p>
           <div className="flex flex-row items-center text-center space-x-2 mt-8 mx-auto md:mx-0">
-            <Link style={{ "backgroundColor": "#122231" }} className="text-white rounded-xl p-3 font-bold flex flex-row items-center text-center hover:-translate-y-1" href="#"><AppleIcon className="mr-2 text-3xl" /> Get on iPhone</Link>
-            <Link style={{ "backgroundColor": "#122231" }} className="text-white rounded-xl p-4 font-bold flex flex-row items-center text-center hover:-translate-y-1" href="#"><PlaystoreIcon className="mr-2 text-yellow-400 text-xl" /> Get on Android</Link>
+            <Link className="text-white rounded-xl p-3 bg-slate-900 hover:bg-slate-950 font-bold flex flex-row items-center text-center hover:-translate-y-1" href="#"><AppleIcon className="mr-2 text-3xl" /> Get on iPhone</Link>
+            <Link className="text-white rounded-xl p-3 bg-slate-900 hover:bg-slate-950 font-bold flex flex-row items-center text-center hover:-translate-y-1" href="#"><PlaystoreIcon className="mr-2 text-yellow-400 text-3xl" /> Get on Android</Link>
           </div>
         </div>
         <div>
