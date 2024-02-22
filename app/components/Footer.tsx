@@ -7,7 +7,7 @@ import { FaFacebookF as FacebookIcon, FaInstagram as InstagramIcon, FaTwitter as
 function Footer() {
     return (
         <div className="bg-green-200">
-            <div className="flex flex-col md:flex-row space-y-8 md:space-y-0 px-4 py-8 max-w-6xl mx-auto justify-between mt-8 mb-16">
+            <div className="flex flex-col md:flex-row space-y-8 md:space-y-0 px-4 py-8 max-w-6xl mx-auto justify-between mt-8 mb-4">
                 <Link href="/">
                     <Image
                         src="/tranzgoo.png"
@@ -47,14 +47,15 @@ function Footer() {
                         <Link href="#" ><TiktokIcon /></Link>
                         <Link href="#" className="text-xl"><YoutubeIcon /></Link>
                     </div>
-                    <div className="flex flex-col text-left md:text-right items-start md:items-end space-y-2 text-sm">
-                        <Link href="#">Tesmot house, Abdulrahman Okene close,</Link>
-                        <Link href="#">Victoria Island, Lagos, Nigeria.</Link>
+                    <div className="flex flex-col text-left md:text-right items-start md:items-end space-y-2 text-sm text-black">
+                        <Link href="#">Okigwe Road Owerri,</Link>
+                        <Link href="#">Imo State, Nigeria.</Link>
                         <Link href="mailto:contact@tranzgoo.com">contact@tranzgoo.com</Link>
                         <Link href="tel:+2348065096213">+234 806 509 6213</Link>
                     </div>
                 </div>
             </div>
+            <p style={{ "color": "#3D4F60" }} className="px-4 max-w-6xl mx-auto mb-8 pb-8 text-center">Copyright ©TranzGoo. All rights reserved.</p>
         </div>
     );
 }
