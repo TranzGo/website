@@ -11,7 +11,7 @@ import { TfiLayoutMenuSeparated } from "react-icons/tfi";
 import { FcServices } from "react-icons/fc";
 import { GoHistory } from "react-icons/go";
 
-function UnlockAccount() {
+function Dashboard() {
     const [showBalance, setShowBalance] = useState(true);
     return (
         <div>
@@ -39,7 +39,7 @@ function UnlockAccount() {
                         {showBalance ? <IoMdEye onClick={() => setShowBalance(!showBalance)} className="ml-2" /> : <IoMdEyeOff onClick={() => setShowBalance(!showBalance)} className="ml-2" />}
                     </div>
                     <div className="flex flex-row ml-4 mt-3 space-x-3 text-green-700">
-                        <Link href="#" className="flex flex-row justify-center items-center text-lg py-1 font-bold rounded-xl bg-white w-28 ml-[2px]"><IoIosSend className="mr-2 text-xl" />Send</Link>
+                        <Link href="/app/send" className="flex flex-row justify-center items-center text-lg py-1 font-bold rounded-xl bg-white w-28 ml-[2px]"><IoIosSend className="mr-2 text-xl" />Send</Link>
                         <Link href="#" className="flex flex-row justify-center items-center text-lg py-1 font-bold rounded-xl bg-white w-40"><FaPlusCircle className="mr-2" />Fund Account</Link>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ function UnlockAccount() {
                     <TfiLayoutMenuSeparated className="text-3xl text-green-600" />
                     <p className="text-black font-semibold text-xs">History</p>
                 </div>
-                <div className="flex flex-row mx-1 px-4 justify-between items-center text-center text-green-600 text-xs mt-9 py-1 border-2 border-slate-100 shadow-2xl rounded-b-2xl">
+                <div className="flex flex-row mx-1 px-4 justify-between items-center text-center text-green-600 text-xs mt-7 py-1 border-2 border-slate-100 shadow-2xl rounded-b-2xl">
                     <Link href="/app/dashboard" className="flex flex-col justify-center items-center text-center"><IoIosHome className="text-lg" />Home</Link>
                     <Link href="#" className="flex flex-col justify-center items-center text-center"><FcServices className="text-lg" />Services</Link>
                     <Link href="#" className="flex flex-col justify-center items-center text-center"><GoHistory className="text-md" />History</Link>
@@ -73,4 +73,4 @@ function UnlockAccount() {
     );
 }
 
-export default UnlockAccount;
+export default Dashboard;
