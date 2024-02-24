@@ -39,13 +39,13 @@ function Dashboard() {
                         {showBalance ? <IoMdEye onClick={() => setShowBalance(!showBalance)} className="ml-2" /> : <IoMdEyeOff onClick={() => setShowBalance(!showBalance)} className="ml-2" />}
                     </div>
                     <div className="flex flex-row ml-4 mt-3 space-x-3 text-green-700">
-                        <Link href="/app/send" className="flex flex-row justify-center items-center text-lg py-1 font-bold rounded-xl bg-white w-28 ml-[2px]"><IoIosSend className="mr-2 text-xl" />Send</Link>
-                        <Link href="#" className="flex flex-row justify-center items-center text-lg py-1 font-bold rounded-xl bg-white w-40"><FaPlusCircle className="mr-2" />Fund Account</Link>
+                        <Link href="/dashboard/send" className="flex flex-row justify-center items-center text-lg py-1 font-bold rounded-xl bg-white w-28 ml-[2px]"><IoIosSend className="mr-2 text-xl" />Send</Link>
+                        <Link href="/dashboard/deposit" className="flex flex-row justify-center items-center text-lg py-1 font-bold rounded-xl bg-white w-40"><FaPlusCircle className="mr-2" />Fund Account</Link>
                     </div>
                 </div>
                 <p className="flex flex-row mt-2 justify-start items-center text-left font-bold text-green-700 text-md"><FaBolt className="mr-1 text-lg text-green-500" />Quick Access</p>
                 <div className="flex flex-row justify-center space-x-1 mt-3 text-sm">
-                    <Link href="#" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><FaPhoneAlt />Airtime</Link>
+                    <Link href="/dashboard/airtime" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><FaPhoneAlt />Airtime</Link>
                     <Link href="#" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><TbWorldSearch />Data</Link>
                     <Link href="#" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><PiSwap />Airtime2Cash</Link>
                     <Link href="#" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><IoIosMore />More</Link>
@@ -63,7 +63,7 @@ function Dashboard() {
                     <p className="text-black font-semibold text-xs">History</p>
                 </div>
                 <div className="flex flex-row mx-1 px-4 justify-between items-center text-center text-green-600 text-xs mt-7 py-1 border-2 border-slate-100 shadow-2xl rounded-b-2xl">
-                    <Link href="/app/dashboard" className="flex flex-col justify-center items-center text-center"><IoIosHome className="text-lg" />Home</Link>
+                    <Link href="/dashboard" className="flex flex-col justify-center items-center text-center"><IoIosHome className="text-lg" />Home</Link>
                     <Link href="#" className="flex flex-col justify-center items-center text-center"><FcServices className="text-lg" />Services</Link>
                     <Link href="#" className="flex flex-col justify-center items-center text-center"><GoHistory className="text-md" />History</Link>
                     <Link href="#" className="flex flex-col justify-center items-center text-center"><FaUserAlt className="text-md" />Profile</Link>

@@ -10,7 +10,7 @@ function Login() {
     return (
         <div>
             <div className="flex items-start justify-start text-left mt-8 ml-5">
-                <Link href="/app">
+                <Link href="/auth">
                     <button><BackIcon className="text-4xl text-green-600 rounded-xl border-solid border-2 border-green-600 hover:bg-green-300" /></button>
                 </Link>
             </div>

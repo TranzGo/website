@@ -10,7 +10,7 @@ function SignInSocials() {
     return (
         <div>
             <div className="flex items-start justify-start text-left mt-8 ml-5">
-                <Link href="/app/">
+                <Link href="/auth">
                     <button><BackIcon className="text-4xl text-green-600 rounded-xl border-solid border-2 border-green-600 hover:bg-green-300" /></button>
                 </Link>
             </div>
@@ -33,7 +33,7 @@ function SignInSocials() {
                     <button className="flex flex-row items-center justify-center text-center text-green-600 font-bold bg-white hover:bg-green-100 py-2 w-80 rounded-2xl border-solid border-2 border-green-600 mb-7"><MicrosoftIcon className="text-2xl mr-5" />Continue with Microsoft</button>
                 </div>
                 <div>
-                    <Link href="/app/register">
+                    <Link href="/auth/register">
                         <button className="text-white font-bold bg-green-600 hover:bg-green-700 py-2 w-80 rounded-2xl mb-10">Sign Up</button>
                     </Link>
                 </div>

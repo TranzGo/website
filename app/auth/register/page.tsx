@@ -9,7 +9,7 @@ function Register() {
     return (
         <div>
             <div className="flex items-start justify-start text-left mt-8 ml-5">
-                <Link href="/app/signin-socials">
+                <Link href="/auth/signin-socials">
                     <button><BackIcon className="text-4xl text-green-600 rounded-xl border-solid border-2 border-green-600 hover:bg-green-300" /></button>
                 </Link>
             </div>
@@ -41,7 +41,7 @@ function Register() {
                     <input className="text-green-600 text-sm font-bold bg-white hover:bg-green-100 py-2 w-80 rounded-lg outline-none border-green-600 placeholder:text-green-600" type="password" id="confirmPwd" name="confirmPwd" placeholder="Confirm Password"></input>
                 </div>
                 <div className="text-sm mb-7">
-                    <p className="text-black">I already have an account <Link className="text-green-600" href="/app/login">Sign In</Link></p>
+                    <p className="text-black">I already have an account <Link className="text-green-600" href="/auth/login">Sign In</Link></p>
                 </div>
                 <div className="flex-shrink">
                     <button className="text-white font-bold bg-green-600 hover:bg-green-700 py-2 w-72 h-10 rounded-2xl mb-10">Submit</button>

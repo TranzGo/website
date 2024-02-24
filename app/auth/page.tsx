@@ -21,12 +21,12 @@ function WelcomePage() {
                 <p>Your seamless telecom experience begins here. Enjoy!</p>
             </div>
             <div>
-                <Link href="/app/signin-socials">
+                <Link href="/auth/signin-socials">
                     <button className="text-white font-bold bg-green-600 hover:bg-green-700 py-2 w-72 rounded-2xl mb-5">Create Account</button>
                 </Link>
             </div>
             <div>
-                <Link href="/app/login">
+                <Link href="/auth/login">
                     <button className="text-white font-bold bg-green-600 hover:bg-green-700 py-2 w-72 rounded-2xl mb-5">Login</button>
                 </Link>
             </div>
