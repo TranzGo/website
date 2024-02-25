@@ -15,7 +15,7 @@ function Dashboard() {
     const [showBalance, setShowBalance] = useState(true);
     return (
         <div>
-            <div className="flex flex-col w-80 mx-auto">
+            <div className="flex flex-col w-80 mx-auto my-auto">
                 <div className="flex flex-row mt-4">
                     <div className="rounded-full mr-4 items-start text-left">
                         <Image
@@ -50,7 +50,7 @@ function Dashboard() {
                     <Link href="#" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><PiSwap />Airtime2Cash</Link>
                     <Link href="#" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><IoIosMore />More</Link>
                 </div>
-                <div className="flex justify-center items-center text-center mt-4">
+                <div className="flex justify-center items-center text-center mt-[14px]">
                     <Image
                         src="/flyer.png"
                         alt="User Profile Picture"
@@ -62,9 +62,9 @@ function Dashboard() {
                     <TfiLayoutMenuSeparated className="text-3xl text-green-600" />
                     <p className="text-black font-semibold text-xs">History</p>
                 </div>
-                <div className="flex flex-row mx-1 px-4 justify-between items-center text-center text-green-600 text-xs mt-7 py-1 border-2 border-slate-100 shadow-2xl rounded-b-2xl">
+                <div className="flex flex-row mx-1 px-4 justify-between items-center text-center text-green-600 text-xs mt-[18px] py-1 border-2 border-slate-100 shadow-2xl rounded-b-2xl">
                     <Link href="/dashboard" className="flex flex-col justify-center items-center text-center"><IoIosHome className="text-lg" />Home</Link>
-                    <Link href="#" className="flex flex-col justify-center items-center text-center"><FcServices className="text-lg" />Services</Link>
+                    <Link href="/dashboard/services" className="flex flex-col justify-center items-center text-center"><FcServices className="text-lg" />Services</Link>
                     <Link href="#" className="flex flex-col justify-center items-center text-center"><GoHistory className="text-md" />History</Link>
                     <Link href="#" className="flex flex-col justify-center items-center text-center"><FaUserAlt className="text-md" />Profile</Link>
                 </div>

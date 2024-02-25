@@ -28,7 +28,7 @@ function BuyAirtime() {
                     <PiUserList className="text-lg" />
                 </div>
                 <div className="flex flex-row justify-between mt-2">
-                    <p className="flex flex-row justify-center items-center text-center text-[9px]">{useOwnNumber ? <BsToggleOn onClick={() => setUseOwnNumber(!useOwnNumber)} className="text-green-600 text-xl mr-2" /> : <BsToggleOff onClick={() => setUseOwnNumber(!useOwnNumber)} className="text-green-600 text-xl mr-2" />}Own Number</p>
+                    <p className="flex flex-row justify-center items-center text-center text-gray-400 text-[9px]">{useOwnNumber ? <BsToggleOn onClick={() => setUseOwnNumber(!useOwnNumber)} className="text-green-600 text-xl mr-2" /> : <BsToggleOff onClick={() => setUseOwnNumber(!useOwnNumber)} className="text-green-600 text-xl mr-2" />}Own Number</p>
                     <p className="text-sm text-gray-400">Beneficiary</p>
                 </div>
                 <p className="text-xs text-gray-400 mt-7">Select Provider</p>
