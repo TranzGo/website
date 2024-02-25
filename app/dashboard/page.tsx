@@ -7,7 +7,6 @@ import { TbBellRinging as NotificationsIcon, TbWorldSearch } from "react-icons/t
 import { IoMdEye, IoMdEyeOff, IoIosSend, IoIosMore, IoIosHome } from "react-icons/io";
 import { FaPlusCircle, FaPhoneAlt, FaUserAlt  } from "react-icons/fa";
 import { FaBolt } from "react-icons/fa6";
-import { TfiLayoutMenuSeparated } from "react-icons/tfi";
 import { FcServices } from "react-icons/fc";
 import { GoHistory } from "react-icons/go";
 
@@ -15,7 +14,7 @@ function Dashboard() {
     const [showBalance, setShowBalance] = useState(true);
     return (
         <div>
-            <div className="flex flex-col w-80 mx-auto my-auto">
+            <div className="flex flex-col w-80 mx-auto">
                 <div className="flex flex-row mt-4">
                     <div className="rounded-full mr-4 items-start text-left">
                         <Image
@@ -46,9 +45,9 @@ function Dashboard() {
                 <p className="flex flex-row mt-2 justify-start items-center text-left font-bold text-green-700 text-md"><FaBolt className="mr-1 text-lg text-green-500" />Quick Access</p>
                 <div className="flex flex-row justify-center space-x-1 mt-3 text-sm">
                     <Link href="/dashboard/airtime" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><FaPhoneAlt />Airtime</Link>
-                    <Link href="#" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><TbWorldSearch />Data</Link>
-                    <Link href="#" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><PiSwap />Airtime2Cash</Link>
-                    <Link href="#" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><IoIosMore />More</Link>
+                    <Link href="/dashboard/data" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><TbWorldSearch />Data</Link>
+                    <Link href="/dashboard/airtime2cash" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><PiSwap />Airtime2Cash</Link>
+                    <Link href="/dashboard/services" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><IoIosMore />More</Link>
                 </div>
                 <div className="flex justify-center items-center text-center mt-[14px]">
                     <Image
@@ -57,10 +56,6 @@ function Dashboard() {
                         width={320}
                         height={240}
                     />
-                </div>
-                <div className="flex flex-col justify-center items-center text-center">
-                    <TfiLayoutMenuSeparated className="text-3xl text-green-600" />
-                    <p className="text-black font-semibold text-xs">History</p>
                 </div>
                 <div className="flex flex-row mx-1 px-4 justify-between items-center text-center text-green-600 text-xs mt-[18px] py-1 border-2 border-slate-100 shadow-2xl rounded-b-2xl">
                     <Link href="/dashboard" className="flex flex-col justify-center items-center text-center"><IoIosHome className="text-lg" />Home</Link>

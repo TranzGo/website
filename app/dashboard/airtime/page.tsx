@@ -47,7 +47,7 @@ function BuyAirtime() {
                     </button>
                 </div>
                 <p className="text-xs text-gray-400 mt-5">Save as Beneficiary</p>
-                {saveBeneficiary ? <BsToggleOn onClick={() => setSaveBeneficiary(!saveBeneficiary)} className="text-green-600 text-5xl mr-2" /> : <BsToggleOff onClick={() => setSaveBeneficiary(!saveBeneficiary)} className="text-green-600 text-5xl mr-2" />}
+                {saveBeneficiary ? <BsToggleOn onClick={() => setSaveBeneficiary(!saveBeneficiary)} className="text-green-600 text-4xl mr-2" /> : <BsToggleOff onClick={() => setSaveBeneficiary(!saveBeneficiary)} className="text-green-600 text-4xl mr-2" />}
                 <p className="text-xs text-gray-400 mt-4">Amount</p>
                 <input type="number" step="100" value={amount} onChange={(e) => { setAmount(e.target.value); }} placeholder="&#8358; 0.00" className="bg-white text-black mt-2 h-10 rounded-lg justify-center items-center text-center font-semibold px-4"></input>
                 <button className="mt-20 bg-green-700 text-white font-bold justify-center items-center text-center h-10 rounded-lg">Continue</button>
