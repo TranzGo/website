@@ -18,7 +18,7 @@ function Dashboard() {
                 <div className="flex flex-row mt-4">
                     <div className="rounded-full mr-4 items-start text-left">
                         <Image
-                            src="/user-icon.png"
+                            src="/avatar.png"
                             alt="User Profile Picture"
                             width={60}
                             height={60}
@@ -60,8 +60,8 @@ function Dashboard() {
                 <div className="flex flex-row mx-1 px-4 justify-between items-center text-center text-green-600 text-xs mt-[18px] py-1 border-2 border-slate-100 shadow-2xl rounded-b-2xl">
                     <Link href="/dashboard" className="flex flex-col justify-center items-center text-center"><IoIosHome className="text-lg" />Home</Link>
                     <Link href="/dashboard/services" className="flex flex-col justify-center items-center text-center"><FcServices className="text-lg" />Services</Link>
-                    <Link href="#" className="flex flex-col justify-center items-center text-center"><GoHistory className="text-md" />History</Link>
-                    <Link href="#" className="flex flex-col justify-center items-center text-center"><FaUserAlt className="text-md" />Profile</Link>
+                    <Link href="/dashboard/history" className="flex flex-col justify-center items-center text-center"><GoHistory className="text-md" />History</Link>
+                    <Link href="/dashboard/profile" className="flex flex-col justify-center items-center text-center"><FaUserAlt className="text-md" />Profile</Link>
                 </div>
             </div>
         </div>

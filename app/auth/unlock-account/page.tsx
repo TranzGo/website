@@ -20,7 +20,7 @@ function UnlockAccount() {
             <div className="flex flex-row ml-8 sm:ml-0 text-left sm:text-center items-start sm:items-center justify-start sm:justify-center mt-20">
                 <div className="mr-5 rounded-full">
                     <Image
-                        src="/user-icon.png"
+                        src="/avatar.png"
                         alt="User Profile Picture"
                         width={60}
                         height={60}

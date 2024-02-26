@@ -29,8 +29,8 @@ function Navbar() {
                 </div>
             </div>
             <div className="hidden md:inline-flex items-center space-x-2">
-                <Link href="/app/signin-socials" className="text-black font-bold border px-4 py-3 rounded-xl border-black hover:bg-green-100">Sign in</Link>
-                <Link href="/app/register" className="text-white bg-slate-900 hover:bg-slate-950 font-semibold rounded-xl px-4 py-3">Create free account</Link>
+                <Link href="/auth/signin-socials" className="text-black font-bold border px-4 py-3 rounded-xl border-black hover:bg-green-100">Sign in</Link>
+                <Link href="/auth/register" className="text-white bg-slate-900 hover:bg-slate-950 font-semibold rounded-xl px-4 py-3">Create free account</Link>
             </div>
             {/* Mobile Button */}
             <div onClick={toggleMenu} className="flex md:hidden z-20 text-black items-center">
@@ -61,8 +61,8 @@ function Navbar() {
                     </li>
                 </ul>
                 <div className="flex flex-col items-center space-y-4 mt-6">
-                    <Link href="/app/signin-socials" className="text-black font-bold border px-4 py-3 w-80 rounded-xl border-black bg-green-100 hover:bg-green-200">Sign in</Link>
-                    <Link href="/app/register" className="text-white font-semibold px-4 py-3 w-80 rounded-xl bg-slate-900 hover:bg-slate-950">Create free account</Link>
+                    <Link href="/auth/signin-socials" className="text-black font-bold border px-4 py-3 w-80 rounded-xl border-black bg-green-100 hover:bg-green-200">Sign in</Link>
+                    <Link href="/auth/register" className="text-white font-semibold px-4 py-3 w-80 rounded-xl bg-slate-900 hover:bg-slate-950">Create free account</Link>
                 </div>
             </div>
         </div>
