@@ -21,7 +21,7 @@ function Profile() {
                 <div className="flex flex-row justify-between items-center mt-3 px-4">
                     <div className="flex flex-col justify-start text-black">
                         <p className="font-bold">Profile</p>
-                        <p className="text-[10px]">Manage your TranzGOO account from here</p>
+                        <p className="text-[10px]">Manage your TranzGO account from here</p>
                     </div>
                     <Link href="/dashboard/profile/view"><Image src="/edit.png" alt="edit icon" height={24} width={24} /></Link>
                 </div>

@@ -16,29 +16,29 @@ function Services() {
                 <p className="text-xs text-gray-800 ml-2 mt-1">Explore our range of services</p>
                 <div className="flex flex-col justify-center mt-3 mx-2 space-y-3">
                     <div className="flex flex-row justify-between">
-                        <Link href="/dashboard/airtime" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
+                        <Link href="/dashboard/services/airtime" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
                             <FaPhoneAlt className="text-2xl" />
                             <p className="mt-2 text-xs font-semibold">Airtime</p>
                         </Link>
-                        <Link href="/dashboard/data" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
+                        <Link href="/dashboard/services/data" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
                             <Image src="/data.png" alt="internet search" width={32} height={32}></Image>
                             <p className="mt-2 text-xs font-semibold">Data</p>
                         </Link>
-                        <Link href="/dashboard/airtime2cash" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
+                        <Link href="/dashboard/services/airtime2cash" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
                             <PiSwap className="text-2xl" />
                             <p className="mt-2 text-xs font-semibold">Airtime2Cash</p>
                         </Link>
                     </div>
                     <div className="flex flex-row justify-between">
-                        <Link href="#" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
+                        <Link href="/dashboard/services/education" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
                             <Image src="/education.png" alt="education" width={32} height={32}></Image>
                             <p className="mt-2 text-xs font-semibold">Education</p>
                         </Link>
-                        <Link href="#" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
+                        <Link href="/dashboard/services/electricity" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
                             <Image src="/electricity.png" alt="electricity" width={32} height={32}></Image>
                             <p className="mt-2 text-xs font-semibold">Electricity</p>
                         </Link>
-                        <Link href="#" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
+                        <Link href="/dashboard/services/cabletv" className="bg-white h-24 w-[86px] rounded-lg flex flex-col justify-center items-center text-green-600">
                             <Image src="/cabletv.png" alt="cabletv" width={32} height={32}></Image>
                             <p className="mt-2 text-xs font-semibold">Cable TV</p>
                         </Link>

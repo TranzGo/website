@@ -8,13 +8,13 @@ function WelcomePage() {
             <div>
                 <Image
                     src="/tranzgoo.png"
-                    alt="TranzGoo Logo"
+                    alt="TranzGO Logo"
                     width={200}
                     height={48}
                 />
             </div>
             <div className="flex flex-col items-center justify-center mb-2">
-                <h2 className="text-black font-bold text-2xl">Welcome to TranzGOO</h2>
+                <h2 className="text-black font-bold text-2xl">Welcome to TranzGO</h2>
             </div>
             <div className="flex flex-col items-center justify-center text-center mb-10 font-medium text-sm text-black">
                 <p>Your all-in-one telecom solution! Buy airtime, data, pay bills, and convert airtime to cash effortlessly.</p>

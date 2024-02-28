@@ -18,7 +18,7 @@ function SignInSocials() {
                 <div className="mb-8">
                     <Image
                         src="/tranzgoo.png"
-                        alt="TranzGoo Logo"
+                        alt="TranzGO Logo"
                         width={150}
                         height={36}
                     />

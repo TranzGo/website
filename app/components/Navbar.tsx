@@ -15,7 +15,7 @@ function Navbar() {
                 <Link href="/">
                     <Image
                         src="/tranzgoo.png"
-                        alt="TranzGoo Logo"
+                        alt="TranzGO Logo"
                         width={150}
                         height={36}
                     />

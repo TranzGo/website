@@ -14,7 +14,7 @@ function ReviewAirtime() {
         <div>
             <div className="flex flex-col w-80 mx-auto">
                 <div className="flex flex-row mt-4 justify-between items-center text-center">
-                    <Link href="/dashboard/airtime"><BackIcon className="text-green-600 font-bold text-2xl" /></Link>
+                    <Link href="/dashboard/services/airtime"><BackIcon className="text-green-600 font-bold text-2xl" /></Link>
                     <p className="text-black font-bold">Review</p>
                     <Link href="/dashboard" className="text-md py-1 w-8 h-[26px] justify-center items-center text-center text-green-600 hover:text-green-700">
                         <IoIosHome />

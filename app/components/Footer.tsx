@@ -11,7 +11,7 @@ function Footer() {
                 <Link href="/">
                     <Image
                         src="/tranzgoo.png"
-                        alt="TranzGoo Logo"
+                        alt="TranzGO Logo"
                         width={150}
                         height={36}
                     />
@@ -55,7 +55,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <p style={{ "color": "#3D4F60" }} className="px-4 max-w-6xl mx-auto mb-8 pb-8 text-center">Copyright ©TranzGoo. All rights reserved.</p>
+            <p style={{ "color": "#3D4F60" }} className="px-4 max-w-6xl mx-auto mb-8 pb-8 text-center">Copyright ©TranzGO. All rights reserved.</p>
         </div>
     );
 }

@@ -39,14 +39,14 @@ function Dashboard() {
                     </div>
                     <div className="flex flex-row ml-4 mt-3 space-x-3 text-green-700">
                         <Link href="/dashboard/send" className="flex flex-row justify-center items-center text-lg py-1 font-bold rounded-xl bg-white w-28 ml-[2px]"><IoIosSend className="mr-2 text-xl" />Send</Link>
-                        <Link href="/dashboard/deposit" className="flex flex-row justify-center items-center text-lg py-1 font-bold rounded-xl bg-white w-40"><FaPlusCircle className="mr-2" />Fund Account</Link>
+                        <Link href="/dashboard/fund" className="flex flex-row justify-center items-center text-lg py-1 font-bold rounded-xl bg-white w-40"><FaPlusCircle className="mr-2" />Fund Account</Link>
                     </div>
                 </div>
                 <p className="flex flex-row mt-2 justify-start items-center text-left font-bold text-green-700 text-md"><FaBolt className="mr-1 text-lg text-green-500" />Quick Access</p>
                 <div className="flex flex-row justify-center space-x-1 mt-3 text-sm">
-                    <Link href="/dashboard/airtime" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><FaPhoneAlt />Airtime</Link>
-                    <Link href="/dashboard/data" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><TbWorldSearch />Data</Link>
-                    <Link href="/dashboard/airtime2cash" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><PiSwap />Airtime2Cash</Link>
+                    <Link href="/dashboard/services/airtime" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><FaPhoneAlt />Airtime</Link>
+                    <Link href="/dashboard/services/data" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><TbWorldSearch />Data</Link>
+                    <Link href="/dashboard/services/airtime2cash" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><PiSwap />Airtime2Cash</Link>
                     <Link href="/dashboard/services" className="border-solid border-2 border-green-600 rounded-lg py-2 px-3 bg-white flex flex-col justify-center items-center text-md text-green-600"><IoIosMore />More</Link>
                 </div>
                 <div className="flex justify-center items-center text-center mt-[14px]">
