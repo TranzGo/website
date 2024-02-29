@@ -4,13 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { MdKeyboardArrowLeft as BackIcon } from "react-icons/md";
 import { IoIosHome } from "react-icons/io";
-import { BsToggleOff, BsToggleOn } from "react-icons/bs";
 
 function ReviewCableTV() {
-    const [showPackage, setShowPackage] = useState("");
-    const [pkg, setPkg] = useState("");
-    const [IUCNumber, setIUCNumber] = useState("");
-    const [saveBeneficiary, setSaveBeneficiary] = useState(false);
     return (
         <div>
             <div className="flex flex-col w-80 mx-auto">
@@ -21,8 +16,8 @@ function ReviewCableTV() {
                         <IoIosHome />
                     </Link>
                 </div>
-                <div className="flex flex-col bg-white w-72 h-80 rounded-lg mx-auto mt-5">
-                    <p className="mt-2 mb-2 text-blue-400 text-3xl font-bold mx-auto">DStv</p>
+                <div className="flex flex-col bg-white w-72 h-[340px] rounded-lg mx-auto mt-5">
+                    <Image src="/dstv.png" alt="DSTV Logo" height={64} width={120} className="mx-auto mt-6 items-center" />
                     <div className="flex flex-row justify-between items-center mx-4">
                         <p className="text-sm text-gray-500">Biller</p>
                         <p className="text-black font-semibold text-sm">DSTV</p>
