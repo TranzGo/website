@@ -52,15 +52,15 @@ function Electricity() {
                     <p className="mr-10">Date From:</p>
                     <p className="mr-6">Date to:</p>
                 </div>
-                <div className="flex flex-row mt-0 ml-1 text-xs">
+                <div className="flex flex-row mt-0 ml-1 text-xs text-black">
                     <div className="flex flex-row items-center text-gray-500"><FaFilter className="mr-1" />Sort</div>
                     <select defaultValue="All Company" className="bg-gray-300 border border-gray-400 rounded-xl w-24 ml-2 py-[1px] text-[10px]">
                         <option value="All Company">All Company</option>
                     </select>
-                    <input type="date" name="dateFrom" className="bg-gray-300 border border-gray-400 rounded-xl w-20 ml-2 py-[1px] text-[10px] items-center text-center" />
-                    <input type="date" name="dateTo" className="bg-gray-300 border border-gray-400 rounded-xl w-20 ml-2 py-[1px] text-[10px] items-center text-center" />
+                    <input type="date" name="dateFrom" className="bg-gray-300 border border-gray-400 rounded-xl w-20 ml-2 py-[1px] text-[8.5px] items-center text-center" />
+                    <input type="date" name="dateTo" className="bg-gray-300 border border-gray-400 rounded-xl w-20 ml-2 py-[1px] text-[8.5px] items-center text-center" />
                 </div>
-                <div className="mt-2 w-80 h-32 bg-white rounded-lg flex flex-col">
+                <div className="mt-2 w-80 h-32 bg-white rounded-lg flex flex-col text-black">
                     <div className="flex flex-row bg-gray-200 border border-gray-400 rounded-t-lg">
                         <p className="py-2 ml-4 pr-6 text-sm border-r border-gray-400">Transaction</p>
                         <p className="py-2 ml-4 pr-12 text-sm border-r border-gray-400">Detail</p>
