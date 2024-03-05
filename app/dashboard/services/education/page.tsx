@@ -11,6 +11,8 @@ function Education() {
     const [showNIN, setShowNIN] = useState("");
     const [NIN, setNIN] = useState("");
     const [showPopup, setShowPopup] = useState(false);
+    const [showForm, setShowForm] = useState(false);
+    const [phoneNumber, setPhoneNumber] = useState("");
     return (
         <div>
             <div className="flex flex-col w-80 mx-auto">
@@ -52,13 +54,32 @@ function Education() {
                                     <p>access the Jamb form platform and provide</p>
                                     <p> all info needed</p>
                                 </div>
-                                <Link href="#" className="mt-1 mx-auto items-center text-center w-64 py-1 bg-green-600 text-white rounded-lg font-semibold">Continue</Link>
+                                <button onClick={() => { setShowForm(true); }} className="mt-1 mx-auto items-center text-center w-64 py-1 bg-green-600 text-white rounded-lg font-semibold">Continue</button>
+                            </div>
+                        )}
+                        {showForm && (
+                            <div className="flex flex-col w-80 h-[168px] rounded-lg bg-white text-black fixed shadow-xl z-50 px-4 mt-7">
+                                <div className="flex fle-row mt-2 justify-end items-end text-right">
+                                    <CgCloseR onClick={() => { setShowForm(false); }} className="text-black font-thin" />
+                                </div>
+                                <p className="mt-1 text-[15px] font-medium text-gray-800">Confirm the details below:</p>
+                                <div className="flex flex-col text-sm text-black space-y-2">
+                                    <div className="flex flex-row space-x-3">
+                                        <p>Full Name:</p>
+                                        <p>{`Christiana Nowo Roberts`}</p>
+                                    </div>
+                                    <div className="flex flex-row space-x-3">
+                                        <p>Phone No:</p>
+                                        <input value={phoneNumber} onChange={(e) => { setPhoneNumber(e.target.value); }} placeholder="08167957855" className="border-2 border-black items-center text-center" />
+                                    </div>
+                                </div>
+                                <Link href="/dashboard/services/education/get-epin" className="mt-5 mx-auto items-center text-center w-64 py-1 bg-green-600 text-white rounded-lg font-semibold">Continue</Link>
                             </div>
                         )}
                         <input type="text" placeholder="8119234856710618" value={NIN} onChange={(e) => { setNIN(e.target.value); }} className="bg-white mt-2 pl-2 w-80 h-10 rounded-lg" />
                         <div className="flex flex-col mt-24 space-y-2">
                             <button onClick={() => { setShowPopup(true); }} className="bg-green-600 w-80 h-10 rounded-lg flex flex-row justify-center items-center text-center text-white font-semibold">Get Jamb e-Pin</button>
-                            <button className="bg-green-600 w-80 h-10 rounded-lg flex flex-row justify-center items-center text-center text-white font-semibold">I have Jamb e-Pin</button>
+                            <Link href="/dashboard/services/education/have-epin" className="bg-green-600 w-80 h-10 rounded-lg flex flex-row justify-center items-center text-center text-white font-semibold">I have Jamb e-Pin</Link>
                         </div>
                     </div>
                 )}
