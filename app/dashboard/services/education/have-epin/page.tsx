@@ -39,7 +39,7 @@ function HaveEPin() {
                 <div className="text-[8px] mx-auto text-green-600 items-center text-center mt-3">
                     <p>2024 &copy; Joint Admissions and Matriculation Board (JAMB)</p>
                 </div>
-                <Link href="/dashboard/services/education" className="flex flex-row text-[10px] mx-auto text-green-600 items-center text-center mt-64">
+                <Link href="/dashboard/services/education" className="flex flex-row text-[10px] mx-auto text-green-600 items-center text-center mt-96">
                     <FaArrowLeftLong className="mr-1" />
                     <p>Go Back</p>
                 </Link>
